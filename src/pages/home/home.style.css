@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .Home {
+    @apply h-screen flex flex-row items-center justify-center;
+  }
+  .Home__header {
+    @apply flex flex-col items-center;
+  }
+  .Home__header-title {
+    @apply font-sans text-4xl font-light text-slate-500; 
+  }
+}
