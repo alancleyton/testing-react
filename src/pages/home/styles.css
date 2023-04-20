@@ -3,13 +3,20 @@
 @tailwind utilities;
 
 @layer components {
-  .Home {
+  .home {
     @apply h-screen flex flex-row items-center justify-center;
   }
-  .Home__header {
+
+  .home-header {
     @apply flex flex-col items-center;
   }
-  .Home__header-title {
+
+  .home-header-heading {
     @apply font-sans text-4xl font-light text-slate-500; 
+  }
+
+  .home-header-icon {
+    width: 64px;
+    height: 64px;
   }
 }
