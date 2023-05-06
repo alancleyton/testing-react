@@ -11,6 +11,7 @@
     "./jest-setup.ts",
     "./jest.config.ts",
     "./postcss.config.cjs",
-    "./tailwind.config.cjs"
+    "./tailwind.config.cjs",
+    "test/fileTransformer.cjs"
   ]
 }
