@@ -8,6 +8,8 @@
       "plugin:react/recommended",
       "plugin:import/recommended",
       "plugin:@typescript-eslint/recommended",
+      "plugin:jest/recommended",
+      "plugin:jest/style",
       "standard-with-typescript",
       "prettier"
     ],
@@ -26,6 +28,7 @@
     "plugins": [
       "react",
       "import",
+      "jest",
       "@typescript-eslint",
       "prettier"
     ],
