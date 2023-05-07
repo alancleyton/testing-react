@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .counter.card {
+      @apply backdrop-blur-sm bg-white/10;
+      @apply rounded-md w-full max-w-sm p-6;
+    }
+
+    .counter.display {
+      @apply block;
+      @apply font-sans text-7xl text-slate-100 text-center font-semibold;
+    }
+
+    .counter.buttons {
+      @apply mt-8;
+      @apply flex flex-row items-center justify-center;
+    }
+
+    .counter.button {
+      @apply w-14 h-14;
+      @apply flex items-center justify-center;
+      @apply backdrop-blur-sm bg-white/10 rounded-full;
+      @apply text-2xl text-white text-center;
+      @apply border border-slate-50;
+    }
+
+    .counter.reset-button {
+      @apply block;
+      @apply px-6 py-1 mx-4;
+      @apply backdrop-blur-sm bg-white/10 rounded-full;
+      @apply text-sm text-white;
+      @apply border border-slate-50;
+    }
+  }
