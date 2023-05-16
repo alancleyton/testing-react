@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './counter.css';
 
 export const Counter = (): JSX.Element => {
-  const [count, setCount] = React.useState<number>(0);
+  const [count, setCount] = useState<number>(0);
 
   const decrement = (): void => {
     setCount(count - 1);
@@ -18,7 +18,7 @@ export const Counter = (): JSX.Element => {
 
   return (
     <div className="counter card">
-      <span className="counter display">{count}</span>
+      <span className="counter display">COUNTER: {count}</span>
 
       <div className="counter buttons">
         <button className="counter button" onClick={decrement}>

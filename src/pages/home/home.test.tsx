@@ -3,8 +3,13 @@ import { screen, render } from '@testing-library/react';
 import { Home } from './home';
 
 describe('Home', () => {
-  it('Should render correctly', () => {
-    render(<Home />);
-    expect(screen.getByText(/Testing React Apps/i)).toBeInTheDocument();
+  describe('Renders home page', () => {
+    beforeEach(() => {
+      render(<Home />);
+    });
+
+    it('should render correctly', () => {
+      expect(screen.getByText(/Testing React Apps/i)).toBeInTheDocument();
+    });
   });
 });

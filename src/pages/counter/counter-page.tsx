@@ -4,7 +4,7 @@ import './counter-page.css';
 
 export const CounterPage = (): JSX.Element => {
   return (
-    <div className="CounterPage">
+    <div className="CounterPage" data-testid="CounterPage">
       <Counter />
     </div>
   );
