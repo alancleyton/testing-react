@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactIcon from '../../../public/react.svg';
-import './home.css';
+import './HomePage.css';
 
 export const Home = (): JSX.Element => {
   return (

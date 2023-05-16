@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import HomePage from '../pages/home';
-import CounterPage from '../pages/counter';
+import HomePage from '../pages/Home';
+import CounterPage from '../pages/Counter';
 
 const Router = (): JSX.Element => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { screen, render } from '@testing-library/react';
-import { Home } from './home';
+import { Home } from './HomePage';
 
 describe('Home', () => {
   describe('Renders home page', () => {
